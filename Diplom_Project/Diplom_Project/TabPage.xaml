@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Diplom_Project.module"
+            x:Class="Diplom_Project.TabPage">
+
+    <ContentPage Title="Теория" x:Name="theory"  >
+        <ContentPage.Content >
+            
+            <StackLayout>
+              <local:CustomWebView Uri="theme1_1.pdf" 
+                                 HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+ 
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Практические занятия" x:Name="practic">
+        <StackLayout >
+            
+           
+        </StackLayout>
+    </ContentPage>
+    
+
+
+
+
+</TabbedPage>
+    

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diplom_Project.MainPage">
+
+    <StackLayout VerticalOptions="Start" Background="#1E90FF">
+        <Label Text="Главная страница" HorizontalOptions="Center" TextColor="White" FontSize="37"/>
+        <Image Source="home1.png" HeightRequest="50"
+            Margin="340,-50,10,10" WidthRequest="50"  />
+        <ImageButton Source="burg1.png" HeightRequest="50"
+           Margin="0,-65,340,0" WidthRequest="50" Clicked="Nav_but" />
+
+
+        <Frame BackgroundColor="#d2e4f6"  CornerRadius="10">
+            <ScrollView>
+                <StackLayout  Margin="0,0,10,10000" >
+                    <Label  Text="Основы цифровой грамотности"
+                         VerticalOptions="Fill" HorizontalOptions="Fill"
+                         TextColor="#441FFF" FontSize="24"/>
+                    <ImageButton Source="Comp1.png"  Margin="10,10,10,10" />
+
+
+                </StackLayout>
+            </ScrollView>
+
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
